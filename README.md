@@ -1,7 +1,9 @@
 # test-ubi-centos
 Linux as a container on Podman and Openshift
+
 Centos as a container on Docker
-To test UBI (redhat) and centos (docker)image
+
+UBI (redhat registry) and centos (dockerhub) image
 
 
 ##Use Containerfile
