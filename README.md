@@ -23,4 +23,3 @@ From Openshift Console:
   Select - Image stream tag from internal registry
   provide image details and deploy
   Go to pods and check terminal
-  
