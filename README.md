@@ -1,7 +1,7 @@
 # test-ubi-centos
 To test UBI (redhat) and centos (docker)image
 
-Use Containerfile
+Use Containerfile "\n"
   $ podman build -t ubi-init-test .
   $ podman run -d -it --name ubi ubi-init-test
   $ podman exec -it ubi /bin/bash
