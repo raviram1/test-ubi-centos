@@ -2,7 +2,7 @@
 To test UBI (redhat) and centos (docker)image
 
 
-Use Containerfile
+##Use Containerfile
 
   $ podman build -t ubi-init-test .
   
@@ -11,7 +11,7 @@ Use Containerfile
   $ podman exec -it ubi /bin/bash
   
 
-Use Dockerfile
+##Use Dockerfile
 
   $ docker build -t centos-test .
   
@@ -20,7 +20,7 @@ Use Dockerfile
   $ docker exec -it centos /bin/bash
   
 
-For Openshift:
+##For Openshift:
 
   tag podman image and push it to internal registry of Openshift
   
@@ -31,7 +31,7 @@ For Openshift:
   $ podman push --tls-verify=false default-route-openshift-image-registry.apps.<clusterid.domain.com>/<project>/ubi-init-test:latest
   
 
-From Openshift Console:
+##From Openshift Console:
   
   Select your project
   
