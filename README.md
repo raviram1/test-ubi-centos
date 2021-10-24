@@ -28,11 +28,11 @@
 
   tag podman image and push it to internal registry of Openshift
   
-  $ podman tag localhost/ubi-init-test default-route-openshift-image-registry.apps.<clusterid.domain.com>/<project>/ubi-init-test:latest
+  $ podman tag localhost/ubi-init-test default-route-openshift-image-registry.apps.<clusterid.domain.com>/<project_name>/ubi-init-test:latest
   
   $ podman login --tls-verify=false -u <uid> -p $(oc whoami -t) default-route-openshift-image-registry.apps.<clusterid.domain.com>
   
-  $ podman push --tls-verify=false default-route-openshift-image-registry.apps.<clusterid.domain.com>/<project>/ubi-init-test:latest
+  $ podman push --tls-verify=false default-route-openshift-image-registry.apps.<clusterid.domain.com>/<project_name>/ubi-init-test:latest
   
 
 ##From Openshift Console:
